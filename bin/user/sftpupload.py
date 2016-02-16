@@ -44,8 +44,6 @@ class SFtpGenerator(weewx.reportengine.ReportGenerator):
                                       self.config_dict['StdReport']['HTML_ROOT'])
         try:
 
-            print(self.config_dict)
-            print(self.skin_dict)
             """Initialize an instance of FtpUpload.
             After initializing, call method run() to perform the upload."""
             sftpData = SFTPUpload(
