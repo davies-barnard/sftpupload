@@ -18,11 +18,11 @@ class SFTPUploadInstaller(ExtensionInstaller):
 				'StdReport': {
 						'SFTP': {
 								'skin': 'SFtp',
-								'user': 'yourUserName',
-                'password':'yourPassWord',
-                'server':'yourServer',
-                'path':'remotePath',
-                'max_tries' = 3,
+								'user': 'yourUserName'
+                'password':'yourPassWord'
+                'server':'yourServer'
+                'path':'remotePath'
+                'max_tries' = 3
 								'HTML_ROOT': 'public_html'
 						}
 				}
